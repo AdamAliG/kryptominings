@@ -1,0 +1,14 @@
+{
+    "require": {
+        "sendinblue/api-v3-sdk": "^8.4",
+        "phpmailer/phpmailer": "^6.8",
+        "getbrevo/brevo-php": "^1.0",
+        "mailgun/mailgun-php": "^3.6",
+        "mailjet/mailjet-apiv3-php": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

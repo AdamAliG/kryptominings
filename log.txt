@@ -1,0 +1,512 @@
+Mailjet\Response Object
+(
+    [status:Mailjet\Response:private] => 200
+    [success:Mailjet\Response:private] => 1
+    [body:Mailjet\Response:private] => Array
+        (
+            [Messages] => Array
+                (
+                    [0] => Array
+                        (
+                            [Status] => success
+                            [CustomID] => 
+                            [To] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Email] => sogeking.ali@gmail.com
+                                            [MessageUUID] => 6e5ef5f3-966c-4466-8136-392adab9936a
+                                            [MessageID] => 1152921525097877653
+                                            [MessageHref] => https://api.mailjet.com/v3/REST/message/1152921525097877653
+                                        )
+
+                                )
+
+                            [Cc] => Array
+                                (
+                                )
+
+                            [Bcc] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [rawResponse:Mailjet\Response:private] => GuzzleHttp\Psr7\Response Object
+        (
+            [reasonPhrase:GuzzleHttp\Psr7\Response:private] => OK
+            [statusCode:GuzzleHttp\Psr7\Response:private] => 200
+            [headers:GuzzleHttp\Psr7\Response:private] => Array
+                (
+                    [content-length] => Array
+                        (
+                            [0] => 269
+                        )
+
+                    [content-type] => Array
+                        (
+                            [0] => application/json; charset=UTF-8
+                        )
+
+                    [x-mj-request-guid] => Array
+                        (
+                            [0] => 6229466f-c251-471e-9f01-81a9dd4bec0b
+                        )
+
+                    [date] => Array
+                        (
+                            [0] => Thu, 09 Nov 2023 18:39:53 GMT
+                        )
+
+                )
+
+            [headerNames:GuzzleHttp\Psr7\Response:private] => Array
+                (
+                    [content-length] => content-length
+                    [content-type] => content-type
+                    [x-mj-request-guid] => x-mj-request-guid
+                    [date] => date
+                )
+
+            [protocol:GuzzleHttp\Psr7\Response:private] => 1.1
+            [stream:GuzzleHttp\Psr7\Response:private] => GuzzleHttp\Psr7\Stream Object
+                (
+                    [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #53
+                    [size:GuzzleHttp\Psr7\Stream:private] => 
+                    [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                    [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [request:Mailjet\Response:private] => Mailjet\Request Object
+        (
+            [method:Mailjet\Request:private] => POST
+            [url:Mailjet\Request:private] => https://api.mailjet.com/v3.1/send
+            [filters:Mailjet\Request:private] => Array
+                (
+                )
+
+            [body:Mailjet\Request:private] => Array
+                (
+                    [Messages] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [From] => Array
+                                        (
+                                            [Email] => sogeking.ali@gmail.com
+                                            [Name] => Kryptomining
+                                        )
+
+                                    [To] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [Email] => sogeking.ali@gmail.com
+                                                    [Name] => Kryptomining
+                                                )
+
+                                        )
+
+                                    [ReplyTo] => Array
+                                        (
+                                            [Email] => sogeking.ali@gmail.com
+                                            [Name] => adam
+                                        )
+
+                                    [Subject] => dd
+                                    [HTMLPart] => 
+<html>
+<head>
+<style>
+body {
+    font-family: 'Arial, sans-serif';
+    color: #333333;
+}
+.table {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f7921a;
+    color: white;
+}
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<table class='table'>
+<tr>
+    <th>Name</th>
+    <td>adam</td>
+</tr>
+<tr>
+    <th>Email</th>
+    <td>sogeking.ali@gmail.com</td>
+</tr>
+<tr>
+    <th>Telefonnummer</th>
+    <td>+436607012291</td>
+</tr>
+<tr>
+    <th>Nachricht</th>
+    <td>ggg</td>
+</tr>
+</table>
+</body>
+</html>
+
+                                )
+
+                        )
+
+                )
+
+            [auth:Mailjet\Request:private] => Array
+                (
+                    [0] => c6b4679aced0dbfb09bc8a1149a84985
+                    [1] => 22381a3e093b2109d725736d77847287
+                )
+
+            [type:Mailjet\Request:private] => application/json
+            [requestOptions:Mailjet\Request:private] => Array
+                (
+                    [timeout] => 15
+                    [connect_timeout] => 2
+                )
+
+            [guzzleClient:Mailjet\Request:private] => GuzzleHttp\Client Object
+                (
+                    [config:GuzzleHttp\Client:private] => Array
+                        (
+                            [defaults] => Array
+                                (
+                                    [headers] => Array
+                                        (
+                                            [user-agent] => mailjet-apiv3-php/8.2.4/v2.0.0
+                                        )
+
+                                )
+
+                            [handler] => GuzzleHttp\HandlerStack Object
+                                (
+                                    [handler:GuzzleHttp\HandlerStack:private] => Closure Object
+                                        (
+                                            [static] => Array
+                                                (
+                                                    [default] => Closure Object
+                                                        (
+                                                            [static] => Array
+                                                                (
+                                                                    [default] => GuzzleHttp\Handler\CurlMultiHandler Object
+                                                                        (
+                                                                            [factory:GuzzleHttp\Handler\CurlMultiHandler:private] => GuzzleHttp\Handler\CurlFactory Object
+                                                                                (
+                                                                                    [handles:GuzzleHttp\Handler\CurlFactory:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [maxHandles:GuzzleHttp\Handler\CurlFactory:private] => 50
+                                                                                )
+
+                                                                            [selectTimeout:GuzzleHttp\Handler\CurlMultiHandler:private] => 1
+                                                                            [active:GuzzleHttp\Handler\CurlMultiHandler:private] => 0
+                                                                            [handles:GuzzleHttp\Handler\CurlMultiHandler:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [delays:GuzzleHttp\Handler\CurlMultiHandler:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                            [options:GuzzleHttp\Handler\CurlMultiHandler:private] => Array
+                                                                                (
+                                                                                )
+
+                                                                        )
+
+                                                                    [sync] => GuzzleHttp\Handler\CurlHandler Object
+                                                                        (
+                                                                            [factory:GuzzleHttp\Handler\CurlHandler:private] => GuzzleHttp\Handler\CurlFactory Object
+                                                                                (
+                                                                                    [handles:GuzzleHttp\Handler\CurlFactory:private] => Array
+                                                                                        (
+                                                                                            [0] => CurlHandle Object
+                                                                                                (
+                                                                                                )
+
+                                                                                        )
+
+                                                                                    [maxHandles:GuzzleHttp\Handler\CurlFactory:private] => 3
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$request] => <required>
+                                                                    [$options] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [streaming] => GuzzleHttp\Handler\StreamHandler Object
+                                                        (
+                                                            [lastHeaders:GuzzleHttp\Handler\StreamHandler:private] => Array
+                                                                (
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [parameter] => Array
+                                                (
+                                                    [$request] => <required>
+                                                    [$options] => <required>
+                                                )
+
+                                        )
+
+                                    [stack:GuzzleHttp\HandlerStack:private] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [0] => Closure Object
+                                                        (
+                                                            [static] => Array
+                                                                (
+                                                                    [bodySummarizer] => 
+                                                                )
+
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$handler] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [1] => http_errors
+                                                )
+
+                                            [1] => Array
+                                                (
+                                                    [0] => Closure Object
+                                                        (
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$handler] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [1] => allow_redirects
+                                                )
+
+                                            [2] => Array
+                                                (
+                                                    [0] => Closure Object
+                                                        (
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$handler] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [1] => cookies
+                                                )
+
+                                            [3] => Array
+                                                (
+                                                    [0] => Closure Object
+                                                        (
+                                                            [parameter] => Array
+                                                                (
+                                                                    [$handler] => <required>
+                                                                )
+
+                                                        )
+
+                                                    [1] => prepare_body
+                                                )
+
+                                        )
+
+                                    [cached:GuzzleHttp\HandlerStack:private] => Closure Object
+                                        (
+                                            [static] => Array
+                                                (
+                                                    [handler] => GuzzleHttp\RedirectMiddleware Object
+                                                        (
+                                                            [nextHandler:GuzzleHttp\RedirectMiddleware:private] => Closure Object
+                                                                (
+                                                                    [static] => Array
+                                                                        (
+                                                                            [handler] => GuzzleHttp\PrepareBodyMiddleware Object
+                                                                                (
+                                                                                    [nextHandler:GuzzleHttp\PrepareBodyMiddleware:private] => Closure Object
+                                                                                        (
+                                                                                            [static] => Array
+                                                                                                (
+                                                                                                    [default] => Closure Object
+                                                                                                        (
+                                                                                                            [static] => Array
+                                                                                                                (
+                                                                                                                    [default] => GuzzleHttp\Handler\CurlMultiHandler Object
+                                                                                                                        (
+                                                                                                                            [factory:GuzzleHttp\Handler\CurlMultiHandler:private] => GuzzleHttp\Handler\CurlFactory Object
+                                                                                                                                (
+                                                                                                                                    [handles:GuzzleHttp\Handler\CurlFactory:private] => Array
+                                                                                                                                        (
+                                                                                                                                        )
+
+                                                                                                                                    [maxHandles:GuzzleHttp\Handler\CurlFactory:private] => 50
+                                                                                                                                )
+
+                                                                                                                            [selectTimeout:GuzzleHttp\Handler\CurlMultiHandler:private] => 1
+                                                                                                                            [active:GuzzleHttp\Handler\CurlMultiHandler:private] => 0
+                                                                                                                            [handles:GuzzleHttp\Handler\CurlMultiHandler:private] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [delays:GuzzleHttp\Handler\CurlMultiHandler:private] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                            [options:GuzzleHttp\Handler\CurlMultiHandler:private] => Array
+                                                                                                                                (
+                                                                                                                                )
+
+                                                                                                                        )
+
+                                                                                                                    [sync] => GuzzleHttp\Handler\CurlHandler Object
+                                                                                                                        (
+                                                                                                                            [factory:GuzzleHttp\Handler\CurlHandler:private] => GuzzleHttp\Handler\CurlFactory Object
+                                                                                                                                (
+                                                                                                                                    [handles:GuzzleHttp\Handler\CurlFactory:private] => Array
+                                                                                                                                        (
+                                                                                                                                            [0] => CurlHandle Object
+                                                                                                                                                (
+                                                                                                                                                )
+
+                                                                                                                                        )
+
+                                                                                                                                    [maxHandles:GuzzleHttp\Handler\CurlFactory:private] => 3
+                                                                                                                                )
+
+                                                                                                                        )
+
+                                                                                                                )
+
+                                                                                                            [parameter] => Array
+                                                                                                                (
+                                                                                                                    [$request] => <required>
+                                                                                                                    [$options] => <required>
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                    [streaming] => GuzzleHttp\Handler\StreamHandler Object
+                                                                                                        (
+                                                                                                            [lastHeaders:GuzzleHttp\Handler\StreamHandler:private] => Array
+                                                                                                                (
+                                                                                                                )
+
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                            [parameter] => Array
+                                                                                                (
+                                                                                                    [$request] => <required>
+                                                                                                    [$options] => <required>
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                    [parameter] => Array
+                                                                        (
+                                                                            [$request] => <required>
+                                                                            [$options] => <required>
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [bodySummarizer] => 
+                                                )
+
+                                            [parameter] => Array
+                                                (
+                                                    [$request] => <required>
+                                                    [$options] => <required>
+                                                )
+
+                                        )
+
+                                )
+
+                            [allow_redirects] => Array
+                                (
+                                    [max] => 5
+                                    [protocols] => Array
+                                        (
+                                            [0] => http
+                                            [1] => https
+                                        )
+
+                                    [strict] => 
+                                    [referer] => 
+                                    [track_redirects] => 
+                                )
+
+                            [http_errors] => 1
+                            [decode_content] => 1
+                            [verify] => 1
+                            [cookies] => 
+                            [idn_conversion] => 
+                            [headers] => Array
+                                (
+                                    [User-Agent] => GuzzleHttp/7
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

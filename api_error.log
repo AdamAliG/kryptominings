@@ -1,0 +1,3 @@
+[401] Client error: `POST https://api.sendinblue.com/v3/smtp/email` resulted in a `401 Unauthorized` response:
+{"message":"Key not found","code":"unauthorized"}
+
